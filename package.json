@@ -26,10 +26,11 @@
     "@nebular/theme": "^5.0.0",
     "angular-fire-schematics": "^1.0.0",
     "eva-icons": "^1.1.2",
+    "firebase": ">= 5.5.7 <8",
+    "node.js": "0.0.1-security",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
-    "zone.js": "~0.10.2",
-    "firebase": ">= 5.5.7 <8"
+    "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.900.7",

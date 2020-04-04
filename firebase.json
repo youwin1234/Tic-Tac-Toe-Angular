@@ -1,6 +1,7 @@
 {
   "hosting": [
     {
+      "site": "tictactoe-angular-d7dad",
       "target": "tictactoe",
       "public": "dist/tictactoe",
       "ignore": [
@@ -15,5 +16,8 @@
         }
       ]
     }
-  ]
+  ],
+  "database": {
+    "rules": "database.rules.json"
+  }
 }
