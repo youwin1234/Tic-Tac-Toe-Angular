@@ -1,14 +1,14 @@
 {
+  "projects": {
+    "default": "tic-tac-toe-3cdf3"
+  },
   "targets": {
-    "tictactoe-angular-d7dad": {
+    "tic-tac-toe-3cdf3": {
       "hosting": {
         "tictactoe": [
-          "tictactoe-angular-d7dad"
+          "tic-tac-toe-3cdf3"
         ]
       }
     }
-  },
-  "projects": {
-    "default": "tictactoe-angular-d7dad"
   }
 }

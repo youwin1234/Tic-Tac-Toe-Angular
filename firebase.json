@@ -1,23 +1,20 @@
 {
-  "hosting": [
-    {
-      "site": "tictactoe-angular-d7dad",
-      "target": "tictactoe",
-      "public": "dist/tictactoe",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ]
-    }
-  ],
   "database": {
     "rules": "database.rules.json"
+  },
+  "hosting": {
+    "target": "tictactoe",
+    "public": "dist/tictactoe",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
   }
 }
